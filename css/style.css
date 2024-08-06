@@ -30,6 +30,10 @@ h1 {
     font-size: 36px;
 }
 
+.by-askus {
+    display: inline-block;
+}
+
 h2 {
     font-family: 'Pretendard', Arial, sans-serif;
     font-size: 30px;
@@ -78,6 +82,11 @@ button:hover {
     h1 {
         font-size: 28px;
         text-align: center;
+    }
+
+    .by-askus {
+        display: block;
+        margin-top: 10px;
     }
 
     h2 {
