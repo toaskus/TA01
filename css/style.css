@@ -77,7 +77,15 @@ button:hover {
 
     h1 {
         font-size: 28px;
-        text-align: center;
+    }
+    
+    h1 br {
+        display: none;
+    }
+    
+    h1::after {
+        content: '\A';
+        white-space: pre;
     }
 
     h2 {
